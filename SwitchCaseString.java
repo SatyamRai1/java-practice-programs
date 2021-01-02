@@ -16,6 +16,8 @@ public class SwitchCaseString {
             case "chimpanzee": case"alligator": case "tiger": case "python":
                 System.out.println("You'll die soon!");
                 break;
+            default:
+                System.out.println("You're broke!");
         }
 
     }
