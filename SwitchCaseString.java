@@ -22,4 +22,4 @@ public class SwitchCaseString {
 
     }
 }
-//read the comment
+//use .toUpperCase() / .toLowerCase() in string matching if the text does not have to be case sensitive. 
