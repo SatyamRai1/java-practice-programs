@@ -14,12 +14,16 @@ public class TestClass1 {
 
 
 // If you run the above code,
+        
+//________________________________________________________THE EXCEPTION STATEMENT__________________________________________________________________________________        
+        
 
 // Exception in thread "main" java.lang.ArithmeticException: / by zero
 //	at TestClass1.main(TestClass1.java:4)
 
 // Notice how class name: TestClass1 ; method name: main ; file name: TestClass1.java ; and line number:4
-// are all included in the simple stack trace
+// are all included in the simple stack trace. Also notice, the type of exception thrown is a subclass of Exception called ArithmeticException, which more specifically describes
+// what type of error happened. Java supplies several built-in exception types that match the various sorts of run-time errors that can be generated.       
 
 
     }
