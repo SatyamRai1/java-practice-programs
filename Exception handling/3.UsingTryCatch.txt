@@ -1,0 +1,7 @@
+Although the default exception handler provided by the java runtime system is useful for debugging, you will usually want to handle exceptions yourself.
+Doing so has two benefits-
+  1. It allows you to fix the error.
+  2. Most users woud beconfused to say the least if your program stopped running and printed a stack tree whenever an error occured.
+
+To guard against and handle a runtime error, simply enclose the code that you want to monitor in a 'try' block. Immidiately after the try block, include a 'catch' clause that 
+specifies the exception type that you wish to catch. 
