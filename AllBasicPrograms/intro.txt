@@ -1,0 +1,1 @@
+In this folder you can see all the basic programs that can be asked in an easy technical interview.
